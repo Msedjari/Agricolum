@@ -1,0 +1,15 @@
+-La plantilla -->file:///home/mouad/Documentos/Practicas/Agricolum/themeforest-xllV2TDL-crafto-the-multipurpose-html5-template/html/demo-green-energy-blog-single-simple.html
+
+-el style.css es el archivo inicial para el estilo de la pagina
+-el style1.css tiene codigo agricolum.css + codigo añadido
+-agricolum.css --> file:///home/mouad/Documentos/Practicas/Agricolum/themeforest-xllV2TDL-crafto-the-multipurpose-html5-template/html/demos/green-energy/green-energy.css
+
+/* ===================================
+    Mi codigo
+====================================== */
+
+el codigo que he añadido en cada archivo css se encuentra aqui
+
+/* ===================================
+   
+====================================== */
