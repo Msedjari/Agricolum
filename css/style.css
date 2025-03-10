@@ -41,6 +41,7 @@ Table of contents
 ====================================== */
 :root {
   --base-color: #3CC367;/* boton principal*/
+  --second-color: #DBE060;/* boton secundario*/
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
@@ -79,6 +80,10 @@ Table of contents
   --Wasabi: #8ea63a;
   --footer-bg-color: #002C3D;/* el color del footer*/
   --tranparent-bg-color: rgba(255, 253, 253, 0);
+  --black:var(--black) ;
+  --white:var(--white) ;
+  --azul:#002C3D;
+  
 }
 /* ===================================
     03. Reset
@@ -179,8 +184,28 @@ footer a:hover {
   font-size: 0.9rem;
   margin-top: -20px;
 }
+#key{
+  margin-top: auto;
+}
 
+.container2 {
+  background: linear-gradient(to right,#DBE060 , #3CC367);
+}
 
+.txt{
+  color: #002C3D;
+}
+.boton{
+  width: 25%;
+  margin-left: 20px;
+}
+.paragraph{
+  align-items: center;
+  justify-content: center;
+}
+.boton2{
+  background-color: #DBE060;
+}
 /* ===================================
    
 ====================================== */

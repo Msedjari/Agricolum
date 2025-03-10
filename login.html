@@ -24,6 +24,7 @@
             <link rel="stylesheet" href="css/icon.css"/>
             <link rel="stylesheet" href="css/style.css"/>
             <link rel="stylesheet" href="css/responsive.css"/>
+            <link rel="stylesheet" href="css/decor-store.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         </head>
         <body>
@@ -37,9 +38,63 @@
                         .catch(error => console.error('Error fetching header:', error));
                 </script>
             </header>
-
-
-
+      <!-- start section -->
+    <section>
+    <div class="row">
+      <div class="container">
+        <div class="row g-0 justify-content-center"></div>
+                <div class="col-xl-4 col-lg-5 col-md-10 contact-form-style-04 md-mb-50px" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 600, "delay":100, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <div class="row g-0 border-top border-color-transparent-white-light"></div>
+                    <h1 class="alt-font fw-600 text-base-color mb-20px d-block">¡Bienvenido!</h1>
+                    <h2 class="alt-font fw-600 mb-20px text-black d-block">Inicia tu sesión</h2>
+                    <form action="email-templates/contact-form.php" method="post">
+                        <label class="text-dark-gray mb-10px fw-500"></label>
+                        <div class="input-group mb-20px">
+                            <span class="input-group-text bg-white border-end-0">
+                                <img src="img/key.png" alt="key" id="key" class="mb-20px align-items-center justify-content-center" >
+                            </span>
+                            <input class="form-control required border-start-0" type="email" name="name" placeholder="Enter your username">
+                        </div>
+                        <label class="text-dark-gray mb-10px fw-500"></label> 
+                        <div class="input-group mb-20px">
+                            <span class="input-group-text bg-white border-end-0">
+                                <img src="img/key.png"  alt="key"  id="key" class="mb-20px align-items-center justify-content-center">
+                            </span>
+                            <input class="mb-20px bg-white form-control required" type="password" name="password" placeholder="Enter your password" />
+                        </div>
+                        <div class="position-relative terms-condition-box text-start d-flex align-items-center mb-20px">
+                            <label>
+                                <input type="checkbox" name="terms_condition" id="terms_condition" value="1" class="terms-condition check-box align-middle required">
+                                <span class="box fs-14">Recordar contraseña</span>
+                            </label>
+                        </div>
+                        <p>¿Has olvidado tu contraseña?<a href="#" class="fs-14 text-base-color fw-500 text-decoration-line-bottom ms-auto">Forget your password?</a></p>
+                        <input type="hidden" name="redirect" value="">
+                        <button class="btn btn-medium btn-round-edge btn-base-color text-white submit w-100 text-transform-none" type="submit">Aceptar</button> 
+                        <div class="form-results mt-20px d-none"></div>
+                        <div class="row g-0 border-top border-color-transparent-white-light"></div>
+                        <p class="paragraph">¿Aún no tienes tu cuenta?</p> 
+                            <div class="botno2">
+                            <button class="btn botno2 btn-medium btn-round-edge bg-second-color text-black submit w-100 text-transform-none" type="submit">Crear una cuenta nueva</button> 
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2 container-fluid p-0">
+        <div class="row justify-content-center small-screen sm-h-600px g-0">
+            <div class=" col-md-6">
+                <span class="fw-300">Texto descriptivo o claim de funcionalidad</span> 
+                <div class="h-100 position-relative cover-background sm-pt-50px" style="background-image: url('img/actividades\ \(2\).png');" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+                    <div class="fs-140 xl-fs-120 lg-fs-100 md-fs-80 ls-minus-6px md-ls-minus-4px sm-ls-minus-2px text-white position-absolute bottom-minus-20px sm-bottom-minus-10px w-100 text-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <!-- end section --> 
             <footer>
                 <script>
                     fetch('footer.html')
@@ -51,3 +106,8 @@
                 </script>
             </footer>
         </body>
+          <!-- javascript libraries -->
+          <script type="text/javascript" src="js/jquery.js"></script>
+          <script type="text/javascript" src="js/vendors.min.js"></script>
+          <script type="text/javascript" src="js/main.js"></script>
+    </html> 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!doctype html>
+    <html class="no-js" lang="en">
+        <head>
+            <title>Agricolum</title>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="author" content="ThemeZaa">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+            <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
+            <!-- favicon icon -->
+            <link rel="shortcut icon" href="images/favicon.png">
+            <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+            <!-- google fonts preconnect -->
+            <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <!-- style sheets and font icons  -->
+            <link rel="stylesheet" href="css/vendors.min.css"/>
+            <link rel="stylesheet" href="css/vendors.css"/>
+            <link rel="stylesheet" href="css/icon.min.css"/>
+            <link rel="stylesheet" href="css/icon.css"/>
+            <link rel="stylesheet" href="css/style.css"/>
+            <link rel="stylesheet" href="css/responsive.css"/>
+            <link rel="stylesheet" href="css/decor-store.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        </head>
+        <body>
+            <header>
+                <script>
+                    fetch('header.html')
+                        .then(response => response.text())
+                        .then(data => {
+                            document.querySelector('header').innerHTML = data;
+                        })
+                        .catch(error => console.error('Error fetching header:', error));
+                </script>
+            </header>
+      <!-- start section -->
+    <section>
+      <div class="container">
+        <div class="row g-0 justify-content-center"></div>
+                <div class="col-lg-6 col-md-10 offset-xl-2 offset-lg-1 p-6 box-shadow-extra-large border-radius-6px" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 600, "delay":150, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <span class="fs-26 xs-fs-24 alt-font fw-600 text-dark-gray mb-20px d-block">Create an account</span>
+                    <form action="email-templates/contact-form.php" method="post">
+                        <label class="text-dark-gray mb-10px fw-500">Username<span class="text-red">*</span></label> 
+                        <input class="mb-20px bg-very-light-gray form-control required" type="text" name="name" placeholder="Enter your username" />
+                        <label class="text-dark-gray mb-10px fw-500">Email address<span class="text-red">*</span></label> 
+                        <input class="mb-20px bg-very-light-gray form-control required" type="email" name="email" placeholder="Enter your email" />
+                        <label class="text-dark-gray mb-10px fw-500">Password<span class="text-red">*</span></label> 
+                        <input class="mb-20px bg-very-light-gray form-control required" type="password" name="password" placeholder="Enter your password" /> 
+                        <span class="fs-13 lh-22 w-90 lg-w-100 md-w-90 sm-w-100 d-block mb-30px">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#" class="text-dark-gray text-decoration-line-bottom fw-500">privacy policy.</a></span>
+                        <input type="hidden" name="redirect" value="">
+                        <button class="btn btn-medium btn-round-edge btn-base-color btn-box-shadow submit w-100 text-transform-none" type="submit">Register</button>
+                        <div class="form-results mt-20px d-none"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section --> 
+            <footer>
+                <script>
+                    fetch('footer.html')
+                        .then(response => response.text())
+                        .then(data => {
+                            document.querySelector('footer').innerHTML = data;
+                        })
+                        .catch(error => console.error('Error fetching footer:', error));
+                </script>
+            </footer>
+        </body>
+          <!-- javascript libraries -->
+          <script type="text/javascript" src="js/jquery.js"></script>
+          <script type="text/javascript" src="js/vendors.min.js"></script>
+          <script type="text/javascript" src="js/main.js"></script>
+    </html> 
