@@ -3,7 +3,7 @@
     <!doctype html>
     <html class="no-js" lang="en">
         <head>
-            <title>Agricolum</title>
+            <title>Agricolum | Rgistrar</title>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="author" content="ThemeZaa">
@@ -39,27 +39,84 @@
                 </script>
             </header>
       <!-- start section -->
-    <section>
-      <div class="container">
-        <div class="row g-0 justify-content-center"></div>
-                <div class="col-lg-6 col-md-10 offset-xl-2 offset-lg-1 p-6 box-shadow-extra-large border-radius-6px" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 600, "delay":150, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                    <span class="fs-26 xs-fs-24 alt-font fw-600 text-dark-gray mb-20px d-block">Create an account</span>
-                    <form action="email-templates/contact-form.php" method="post">
-                        <label class="text-dark-gray mb-10px fw-500">Username<span class="text-red">*</span></label> 
-                        <input class="mb-20px bg-very-light-gray form-control required" type="text" name="name" placeholder="Enter your username" />
-                        <label class="text-dark-gray mb-10px fw-500">Email address<span class="text-red">*</span></label> 
-                        <input class="mb-20px bg-very-light-gray form-control required" type="email" name="email" placeholder="Enter your email" />
-                        <label class="text-dark-gray mb-10px fw-500">Password<span class="text-red">*</span></label> 
-                        <input class="mb-20px bg-very-light-gray form-control required" type="password" name="password" placeholder="Enter your password" /> 
-                        <span class="fs-13 lh-22 w-90 lg-w-100 md-w-90 sm-w-100 d-block mb-30px">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#" class="text-dark-gray text-decoration-line-bottom fw-500">privacy policy.</a></span>
-                        <input type="hidden" name="redirect" value="">
-                        <button class="btn btn-medium btn-round-edge btn-base-color btn-box-shadow submit w-100 text-transform-none" type="submit">Register</button>
-                        <div class="form-results mt-20px d-none"></div>
-                    </form>
+      <section>
+        <div class="row">
+          <div class="container">
+            <div class="row g-0 justify-content-center"></div>
+                    <div class="col-xl-5 col-lg-5 col-md-10 contact-form-style-04 md-mb-50px" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 600, "delay":100, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                        <div class="row g-0 border-top border-color-transparent-white-light"></div>
+                        <h1 class="alt-font fw-600 text-base-color mb-20px d-block">Crea tu cuenta</h1>
+                        <h2 class="alt-font fw-600 mb-20px text-black d-block">¡Es gratis!</h2>
+                        <form action="email-templates/contact-form.php" method="post">
+                            <label class="text-dark-gray mb-10px fw-500"></label>
+                            <div class="input-group mb-20px">
+                                <span class="input-group-text bg-white border-end-0">
+                                    <img src="img/key.png" alt="key" id="key" class="mb-20px align-items-center justify-content-center" >
+                                </span>
+                                <input class="form-control required border-start-0" type="email" name="name" placeholder="Enter your username">
+                            </div>
+                            <div class="input-group mb-20px">
+                                <span class="input-group-text bg-white border-end-0">
+                                    <img src="img/key.png" alt="key" id="key" class="mb-20px align-items-center justify-content-center" >
+                                </span>
+                                <input class="form-control required border-start-0" type="name" name="name" placeholder="Enter your lastname">
+                            </div>
+                            <label class="text-dark-gray mb-10px fw-500"></label>
+                            <div class="input-group mb-20px">
+                                <span class="input-group-text bg-white border-end-0">
+                                    <img src="img/key.png" alt="key" id="key" class="mb-20px align-items-center justify-content-center" >
+                                </span>
+                                <input class="form-control required border-start-0" type="password" name="password" placeholder="Enter your password">
+                            </div>
+                            <div class="input-group mb-20px">
+                                <span class="input-group-text bg-white border-end-0">
+                                    <img src="img/key.png" alt="key" id="key" class="mb-20px align-items-center justify-content-center" >
+                                </span>
+                                <input class="form-control required border-start-0" type="email" name="email" placeholder="Enter your email">
+                            </div>
+                            <div class="input-group mb-20px">
+                                <span class="input-group-text bg-white border-end-0">
+                                    <img src="img/key.png" alt="key" id="key" class="mb-20px align-items-center justify-content-center" >
+                                </span>
+                                <input class="form-control required border-start-0" type="number" name="phone" placeholder="Enter your phone">
+                            </div>
+                            <div class="position-relative terms-condition-box text-start d-flex align-items-center mb-20px">
+                                <label>
+                                    <input type="checkbox" name="terms_condition" id="terms_condition" value="1" class="terms-condition check-box align-middle required">
+                                    <span class="box fs-14 text-black">Soy asesor</span>
+                                </label>
+                            </div>
+                            <div class="position-relative terms-condition-box text-start d-flex align-items-center mb-20px">
+                                <label>
+                                    <input type="checkbox" name="terms_condition" id="terms_condition" value="1" class="terms-condition check-box align-middle required">
+                                    <span class="box fs-14 text-black">Acepto los<span class="text-white mx-1"></span></span><a href="#" class="fs-14 text-black fw-500 text-decoration-line-bottom ms-auto">términos y condiciones</a></span>
+                                </label>
+                            </div>
+                            <p class="paragraph fw-500">¿Has olvidado tu contraseña?<span class="text-white mx-1"></span><a href="#" class="fs-14 text-base-color fw-500 text-decoration-line-bottom ms-auto">Clica aquí para recuperarla</a></p>
+                            <input type="hidden" name="redirect" value="">
+                            <button class="btn btn-medium btn-round-edge btn-base-color text-white submit w-100 text-transform-none" type="submit">Crear nueva cuenta</button> 
+                            <div class="form-results mt-20px d-none"></div>
+                            <div class="row g-0 border-top border-color-transparent-white-light"></div>
+                            <p class="paragraph fw-500">¿Ya tienes una cuenta en Agricolum?</p> 
+                                <div class="botno2">
+                                <button class="btn botno2 btn-medium btn-round-edge bg-second-color text-black submit w-100 text-transform-none" style="background-color: #DBE060;" type="submit">Inicia sesión con tu cuenta existente</button> 
+                                </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="container2 container-fluid p-0">
+            <div class="row justify-content-center small-screen sm-h-600px g-0">
+                <div class=" col-md-6">
+                    <span class="text-foto fw-600 text-white">Regístrate ahora y disfruta de 15 días de prueba gratis con la versión 2 Espigas.</span> 
+                    <div class="foto1 h-100 position-relative cover-background sm-pt-50px" style="background-image: url('img/actividades\ \(2\).png');" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+                        <div class="fs-140 xl-fs-120 lg-fs-100 md-fs-80 ls-minus-6px md-ls-minus-4px sm-ls-minus-2px text-white position-absolute bottom-minus-20px sm-bottom-minus-10px w-100 text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
     <!-- end section --> 
             <footer>
                 <script>
